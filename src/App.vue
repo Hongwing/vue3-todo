@@ -30,7 +30,7 @@
   </nav>
   <img alt="Vue logo" src="./assets/logo.png" />
   <div id="player"></div>
-  <HelloWorld msg="Vue3 App From HenryHe" />
+  <HelloWorld msg="Vue3 App From HenryHe | 当你看到这里，祝你开心。" />
 </template>
 
 <script>
