@@ -1,6 +1,6 @@
 <template>
   <div class="hello">
-    <h1>{{ msg }}</h1>
+    <h1 :style="{color: 'white'}">{{ msg }}</h1>
     <div>
       <input
         :style="{ display: 'inline-block' }"
