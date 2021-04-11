@@ -78,6 +78,9 @@ body {
   text-align: center;
   color: white;
 }
+#player {
+  border-radius: 8px;
+}
 .the-menu {
   display: flex;
   justify-content: stretch;
