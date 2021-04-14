@@ -1,4 +1,15 @@
 <template>
+  <div
+    class="md:container md:mx-auto p-4 m-12 bg-white rounded-xl shadow-md flex sm:flex-col md:flex-row"
+  >
+    <div class="mr-4 w-full flex justify-center flex-col">
+      <div id="player"></div>
+    </div>
+    <div class="w-4/12 sm:w-full text-center">
+      <HelloWorld msg="Vue3 App From HenryHe | 当你看到这里，祝你开心。" />
+    </div>
+  </div>
+
   <nav>
     <ul class="the-menu">
       <li>
@@ -28,9 +39,6 @@
       </li>
     </ul>
   </nav>
-  <img alt="Vue logo" src="./assets/logo.png" />
-  <div id="player"></div>
-  <HelloWorld msg="Vue3 App From HenryHe | 当你看到这里，祝你开心。" />
 </template>
 
 <script>
@@ -66,8 +74,9 @@ export default {
 body {
   margin: 0 auto;
   min-height: 100vh;
-  background: linear-gradient(-37deg, teal, purple, orange) center/cover
-    no-repeat;
+  /* background: linear-gradient(-37deg, teal, purple, orange) center/cover
+    no-repeat; */
+  @apply bg-gray-300;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
     Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
 }
@@ -75,8 +84,6 @@ body {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: white;
 }
 #player {
   border-radius: 8px;
@@ -94,11 +101,9 @@ body {
   display: block;
   padding: 0.5em 1rem;
   white-space: nowrap;
-  color: white;
 }
 .the-menu a:hover {
   text-decoration: dotted !important;
-  background-color: white;
 }
 .the-menu a:focus {
   outline: 2px dotted currentColor;
@@ -129,7 +134,6 @@ ul {
 
 .the-menu li:hover > ul {
   display: block;
-  background-color: white;
 }
 .the-menu li:focus-within > ul {
   display: blocks;
