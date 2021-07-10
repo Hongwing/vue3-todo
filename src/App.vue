@@ -6,7 +6,7 @@
       <div id="player"></div>
     </div>
     <div class="w-4/12 sm:w-full text-center">
-      <HelloWorld msg="Vue3 App From HenryHe | 当你看到这里，祝你开心。" />
+      <HelloWorld msg="就看一段新闻" />
     </div>
   </div>
 
